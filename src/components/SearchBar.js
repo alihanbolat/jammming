@@ -1,0 +1,17 @@
+import React, {useEffect, useState} from 'react';
+import styles from './SearchBar.css';
+
+function SearchBar () {
+
+    return(
+        <div>
+            <label htmlFor='search'>Find your tune</label> <br />
+            <input 
+            type='text'
+            name="search"/> <br />
+            <button className='button'>Submit</button>
+        </div>
+    )
+}
+
+export default SearchBar;
