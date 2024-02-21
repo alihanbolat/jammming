@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import styles from './SearchBar.css';
+import styles from './SearchBar.module.css';
 
 function SearchBar () {
 
@@ -9,7 +9,7 @@ function SearchBar () {
             <input 
             type='text'
             name="search"/> <br />
-            <button className='button'>Submit</button>
+            <button className={styles.button}>Submit</button>
         </div>
     )
 }
